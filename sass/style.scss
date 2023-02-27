@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+
+.container {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    @media (max-width: 1200px) {
+        max-width: 950px;
+    }
+
+    @media (max-width: 991px) {
+        max-width: 760px;
+    }
+
+    @media (max-width: 767px) {
+        max-width: 560px;
+        padding: 0 10px;
+    }
+
+    @media (max-width: 575px) {
+        padding: 0 15px;
+    }
+}
+
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/goods';
+// @import 'blocks/subscribe';
+// @import 'blocks/footer';
+
+
+// @import 'blocks/media';

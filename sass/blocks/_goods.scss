@@ -1,0 +1,91 @@
+.goods {
+    background: #FFFFFF;
+    padding: 80px 0 20px 0;
+
+    // &__header {
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     justify-content: space-between;
+    // }
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: #1B1A17;
+        text-align: center;
+        // letter-spacing: -0.01em;
+
+    }
+
+    &__link {
+        position: relative;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 500;
+        display: block;
+        text-align: right;
+        color: #444240;
+        text-decoration: none;
+
+        &:before {
+            content: "";
+            width: 101px;
+            height: 1px;
+            position: absolute;
+            bottom: -8px;
+
+            background-color: #C4C0B6;
+        }
+
+        transition: all 400ms ease;
+
+        &:hover {
+            color: #C5B358;
+        }
+    }
+
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        padding-top: 20px;
+        position: relative;
+        // width: 315px;
+    }
+
+    &__subtitle {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(27, 26, 23, 0.82);
+    }
+
+    &__price {
+        font-family: 'Prata';
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(27, 26, 23, 0.82);
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__info {
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #1B1A17;
+    }
+}

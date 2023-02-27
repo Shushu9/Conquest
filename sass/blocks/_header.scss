@@ -1,0 +1,88 @@
+.header {
+    background: #FDFDFB;
+
+    &__info {
+        padding: 19px 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__logo {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        span {
+            padding-top: 3px;
+            padding-left: 2px;
+            font-family: 'Playfair Display';
+            font-size: 12px;
+            letter-spacing: 0.14em;
+            color: #555248;
+        }
+    }
+
+
+    &__menu,
+    &__social {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    &__menu {
+        margin-left: 6px;
+    }
+
+    &__item {
+        padding: 16px 33px;
+        font-size: 14px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #555248;
+        transition: all 400ms ease;
+
+        &:hover {
+            color: #C5B358;
+        }
+    }
+
+    &__social {
+        li {
+            display: flex;
+            align-items: center;
+        }
+
+        &-item {
+            position: relative;
+            padding-left: 17px;
+            padding-right: 5px;
+            margin-top: 16px;
+            text-decoration: none;
+        }
+    }
+
+    &__counter {
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        right: -2px;
+        top: -5px;
+        border-radius: 100%;
+        background: #E6C8B4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-hearth {
+            font-size: 8px;
+            color: #1B1A17;
+        }
+    }
+
+}

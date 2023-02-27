@@ -1,0 +1,155 @@
+@media (max-width: 1220px) {
+    .goods {
+        &__cards {
+            justify-content: space-around;
+        }
+    }
+
+    .subscribe {
+        padding-bottom: 50px;
+
+        &__cards {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__card {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .footer {
+        flex-direction: column;
+
+        &__adress {
+            padding-left: 0;
+            margin: 20px 0;
+
+        }
+    }
+
+    .subfooter__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subfooter__rights {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        &__contacts {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 0;
+            justify-content: end;
+            align-items: end;
+        }
+
+        &__sections {
+            flex-wrap: wrap;
+        }
+
+        &__goods {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        &__phone {
+            margin-right: 25px;
+        }
+    }
+
+    .goods {
+        &__image {
+            margin-right: 0
+        }
+
+        &__card {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    }
+
+    .subscribe {
+        &__card {
+            width: 400px;
+            padding: 36px 40px 30px 40px;
+        }
+
+        &__mail {
+            right: 30px;
+        }
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 575px) {
+    .header {
+        &__menu {
+            flex-wrap: wrap;
+        }
+
+        &__logo {
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+            span {
+                color: #66C05D;
+                padding-left: 16px;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 42px;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+
+    .sale {
+        padding: 100px 10px;
+
+        &__desc {
+            width: 280px;
+        }
+    }
+
+    .goods {
+        &__header {
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    .subscribe {
+        &__card {
+            width: 70%;
+        }
+
+        &__mail {
+            display: none;
+        }
+    }
+
+    .footer__phone {
+        margin-right: 5px;
+    }
+}
