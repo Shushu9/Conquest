@@ -18,15 +18,37 @@
 
     .goods {
         padding-bottom: 20px;
+
+        &__cards {
+            justify-content: space-around;
+        }
     }
 
-    .goods__cards {
-        justify-content: space-around;
-    }
 
     .quality__photo {
         margin-left: 0;
     }
+
+    .news {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            padding-top: 0;
+        }
+
+        &__social {
+            padding-bottom: 20px;
+        }
+
+        &__social {
+            padding-top: 50px;
+        }
+    }
+
+
 }
 
 
@@ -116,6 +138,23 @@
             margin-left: 15px;
         }
     }
+
+    .news__photos {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        &__wrapper {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 35%;
+        }
+    }
 }
 
 
@@ -156,6 +195,16 @@
 
         &__title {
             padding-top: 35px;
+        }
+    }
+
+    .goods {
+        &__card {
+            padding-right: 0;
+        }
+
+        &__img {
+            padding-left: 0;
         }
     }
 
