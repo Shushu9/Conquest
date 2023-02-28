@@ -1,155 +1,174 @@
 @media (max-width: 1220px) {
-    .goods {
-        &__cards {
-            justify-content: space-around;
+    .promo__product {
+        margin-right: 0;
+    }
+
+    .promo__wrap {
+        justify-content: space-around;
+    }
+
+    .promo__info {
+        left: -26.8%;
+        right: auto;
+
+        &:before {
+            right: -65px;
         }
     }
 
-    .subscribe {
-        padding-bottom: 50px;
+    .goods {
+        padding-bottom: 20px;
+    }
 
-        &__cards {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .goods__cards {
+        justify-content: space-around;
+    }
 
-        &__card {
-            margin-bottom: 30px;
-        }
+    .quality__photo {
+        margin-left: 0;
     }
 }
 
 
 @media (max-width: 991px) {
-    .footer {
-        flex-direction: column;
+    .promo {
+        &__title {
+            font-size: 36px;
+            margin-left: 0;
+            padding-top: 180px;
 
-        &__adress {
-            padding-left: 0;
-            margin: 20px 0;
+            &::before {
+                display: none;
+            }
+        }
 
+        &__subtitle,
+        &__desc,
+        &__button {
+            margin-left: 0;
+        }
+
+        &__watch {
+            height: 500px;
+        }
+
+        &__price,
+        &__info {
+            &::before {
+                display: none;
+            }
         }
     }
 
-    .subfooter__items {
-        flex-direction: column;
-        align-items: center;
-    }
+    .quality {
+        &__photo img {
+            width: 100%;
+        }
 
-    .subfooter__rights {
-        margin-bottom: 15px;
+        &__title {
+            padding-top: 0;
+        }
     }
-
 }
 
 
 @media (max-width: 767px) {
     .header {
-        &__contacts {
+        &__info {
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        &__logo {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__item {
+            padding: 16px 33px;
+            font-size: 14px;
+        }
+    }
+
+    .promo {
+        &__title {
+            padding-top: 80px;
+        }
+
+        &__price,
+        &__info {
+            display: none;
+        }
+    }
+
+    .goods__link {
+        padding-top: 13px;
+        text-align: center;
+    }
+
+    .quality {
+        &__photo {
             display: flex;
-            flex-wrap: wrap;
-            padding-top: 0;
-            justify-content: end;
-            align-items: end;
+            align-items: center;
         }
 
-        &__sections {
-            flex-wrap: wrap;
-        }
-
-        &__goods {
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-
-        &__phone {
-            margin-right: 25px;
+        &__desc {
+            margin-left: 15px;
         }
     }
-
-    .goods {
-        &__image {
-            margin-right: 0
-        }
-
-        &__card {
-            margin-right: 5px;
-            margin-left: 5px;
-        }
-    }
-
-    .subscribe {
-        &__card {
-            width: 400px;
-            padding: 36px 40px 30px 40px;
-        }
-
-        &__mail {
-            right: 30px;
-        }
-    }
-
-
 }
-
-
-
 
 
 @media (max-width: 575px) {
     .header {
         &__menu {
-            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
-        &__logo {
-            flex-wrap: wrap;
-            justify-content: center;
-
-
-            span {
-                color: #66C05D;
-                padding-left: 16px;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 42px;
-                letter-spacing: 0.1em;
-            }
+        &__item {
+            padding: 16px 15px;
         }
     }
 
-    .sale {
-        padding: 100px 10px;
+    .promo {
+        padding-bottom: 20px;
 
-        &__desc {
-            width: 280px;
+        &__wrap {
+            flex-direction: column-reverse;
+            align-items: center;
         }
-    }
 
-    .goods {
-        &__header {
-            justify-content: center;
-            flex-direction: column;
+        &__price,
+        &__info {
+            display: block;
+            position: relative;
+            left: auto;
+        }
+
+        &__price {
+            text-align: right;
+        }
+
+        &__info {
+            margin-top: 10px;
+            text-align: left;
         }
 
         &__title {
-            text-align: center;
-            padding-bottom: 10px;
+            padding-top: 35px;
         }
     }
 
-    .subscribe {
-        &__card {
-            width: 70%;
-        }
-
-        &__mail {
-            display: none;
-        }
+    .quality__card {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .footer__phone {
-        margin-right: 5px;
+    .quality__photo {
+        width: 330px;
+        margin-bottom: 10px;
     }
+
+
+
 }
