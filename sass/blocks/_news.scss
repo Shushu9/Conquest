@@ -1,0 +1,47 @@
+.news {
+    padding: 80px 0 83px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-top: 139px;
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 43px;
+        color: #1B1A17;
+    }
+
+    &__info {
+        padding-top: 26px;
+        max-width: 376px;
+        font-size: 16px;
+        line-height: 27px;
+        color: #444240;
+    }
+
+    &__social {
+        padding-top: 110px;
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 17px;
+        }
+    }
+
+    &__photos {
+        width: 629px;
+        display: grid;
+        grid-template-rows: 228px 228px;
+        grid-template-columns: 242px 280px;
+        gap: 10px;
+    }
+}

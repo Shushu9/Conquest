@@ -11,7 +11,7 @@
     &__info {
         display: inline-block;
         position: relative;
-        padding-left: 34%;
+        padding-left: 34.1%;
         font-family: 'Prata';
         font-size: 16px;
         line-height: 22px;
@@ -55,37 +55,36 @@
 
     &__title {
         position: relative;
-        padding-top: 78px;
+        padding-top: 75px;
         font-family: 'Playfair Display';
         font-weight: 400;
         font-size: 45px;
         line-height: 60px;
         color: #1B1A17;
-        letter-spacing: 0.05em;
 
         &:before {
             content: "";
             width: 50px;
             height: 1px;
             position: absolute;
-            bottom: 28px;
+            bottom: 24px;
             left: -65px;
             background-color: #8B8371;
         }
     }
 
     &__subtitle {
-        padding-top: 2px;
+        padding-top: 4px;
         font-family: 'Playfair Display';
         font-size: 30px;
         line-height: 40px;
         color: #1B1A17;
-        letter-spacing: 0.07em;
+
 
     }
 
     &__desc {
-        padding-top: 27px;
+        padding-top: 28px;
         font-weight: 300;
         font-size: 14px;
         line-height: 21px;

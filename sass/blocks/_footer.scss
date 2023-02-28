@@ -1,65 +1,78 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 33%;
-    padding: 38px 0 40px 0;
+    padding: 70px 0 67px 0;
+    background: #444240;
 
-
-
-    &__social {
-        padding-left: 0;
+    &__wrapper {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
+        justify-content: space-around;
+        flex: 25%;
+        flex-wrap: wrap;
+    }
 
-        &-item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            border: 2px solid #66C05D;
-            border-radius: 100%;
-            margin-right: 20px;
+    &__logo {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        span {
+            padding-left: 2px;
+            padding-top: 9px;
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.14em;
+            color: #FFFFFF;
         }
     }
-
-    &__adress {
-        padding-left: 78px;
-        font-size: 14px;
-        line-height: 16px;
-        color: #000000;
-    }
-
 
     &__phone {
-        margin-right: 35px;
+        padding-top: 26px;
+        display: block;
         text-decoration: none;
-        color: #000000;
-        transition: all 400ms ease;
-
-        &:hover {
-            color: #66C05D;
-        }
-    }
-}
-
-.subfooter {
-    background: #EFEFEF;
-
-    &__items {
-        padding: 25px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-    &__rights,
-    &__politics {
         font-size: 12px;
         line-height: 14px;
-        color: #828282;
+        color: rgba(255, 255, 255, 0.75);
     }
+
+    &__mail {
+        display: block;
+        padding-top: 12px;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    &__title {
+        padding: 10px 0 22px 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__links {
+        padding-left: 0;
+        list-style: none;
+
+        li {
+            margin-bottom: 7px;
+        }
+    }
+
+    &__link {
+
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.75);
+        text-decoration: none;
+    }
+
+
+
 }
